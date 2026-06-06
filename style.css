@@ -806,3 +806,145 @@ html{
     color:#444;
 }
 
+/* Responsive */
+
+@media (max-width: 900px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero-content h1{
+        font-size:3rem;
+    }
+
+    .intro h2,
+    .contexto h2,
+    .apartamento h2,
+    .timeline h2,
+    .responsables h2,
+    .justicia h2,
+    .memoria-presente h2{
+        font-size:2.5rem;
+    }
+
+    .contexto-contenedor,
+    .apartamento{
+        padding:40px;
+    }
+}
+
+@media (max-width: 600px){
+
+    nav{
+        padding:15px;
+    }
+
+    .logo{
+        font-size:1.5rem;
+        text-align:center;
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    nav a{
+        font-size:1rem;
+    }
+
+    .hero-content h1{
+        font-size:2.2rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .intro{
+        padding:60px 20px;
+    }
+
+    .intro h2{
+        font-size:2rem;
+    }
+
+    .intro-destacada{
+        font-size:1.1rem;
+    }
+
+    .contexto-contenedor,
+    .apartamento,
+    .fuentes,
+    .memoria-final{
+        padding:25px;
+    }
+
+    .contexto p,
+    .apartamento p,
+    .memoria-presente p{
+        font-size:1rem;
+        text-align:left;
+    }
+
+    .card img{
+        height:220px;
+    }
+
+    .operativo{
+        padding:60px 15px;
+    }
+
+    .operativo h2{
+        font-size:2rem;
+    }
+
+    .subtitulo{
+        font-size:1rem;
+    }
+
+    .operativo-timeline{
+        padding-left:25px;
+    }
+
+    .momento::before{
+        left:-36px;
+    }
+
+    .frase-final blockquote{
+        font-size:1.8rem;
+    }
+
+    .btn-top{
+        width:45px;
+        height:45px;
+        font-size:1.2rem;
+
+        right:15px;
+        bottom:15px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .timeline::before{
+        left:20px;
+    }
+
+    .evento{
+        width:calc(100% - 50px);
+        margin-left:50px !important;
+    }
+
+    .evento::before{
+        left:-39px !important;
+        right:auto !important;
+    }
+}
