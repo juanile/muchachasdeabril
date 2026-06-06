@@ -3,7 +3,8 @@
     padding:0;
     box-sizing:border-box;
 }
-
+.section h2,
+.section p,
 .apartamento h2,
 .contexto h2,
 .timeline h2,
