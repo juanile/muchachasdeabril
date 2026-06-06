@@ -4,6 +4,18 @@
     box-sizing:border-box;
 }
 
+.apartamento h2,
+.contexto h2,
+.timeline h2,
+.responsables h2,
+.justicia h2,
+.memoria-presente h2{
+    font-family:'Cormorant Garamond', serif;
+    font-size:3rem;
+    text-align:center;
+    color:#222;
+} 
+
 .intro{
     padding:100px 20px 80px;
     text-align:center;
@@ -716,3 +728,81 @@ nav a:hover::after{
 html{
     scroll-behavior:smooth;
 }
+.dato-destacado{
+    background:white;
+    color:#222;
+
+    padding:30px;
+
+    border-left:6px solid #8b0000;
+
+    border-radius:8px;
+
+    margin:40px 0;
+}
+.apartamento{
+    max-width:1000px;
+    margin:80px auto;
+    padding:60px;
+
+    background:white;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.apartamento h2{
+    font-family:'Cormorant Garamond', serif;
+    font-size:3rem;
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    color:#222;
+}
+
+.apartamento p{
+    font-size:1.1rem;
+    line-height:2;
+
+    text-align:justify;
+
+    color:#444;
+
+    margin-bottom:25px;
+}
+
+.memoria-presente{
+    background:#f5f5f5;
+
+    padding:100px 20px;
+
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+.memoria-presente h2{
+    text-align:center;
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:3rem;
+
+    margin-bottom:40px;
+}
+
+.memoria-presente p{
+    max-width:900px;
+
+    margin:0 auto 30px auto;
+
+    font-size:1.15rem;
+
+    line-height:2;
+
+    text-align:justify;
+
+    color:#444;
+}
+
