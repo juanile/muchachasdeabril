@@ -48,13 +48,45 @@
     <h2>Contexto Histórico</h2>
 
     <div class="texto">
-        ...
+        Este acontecimiento ocurre en los inicios de la dictadura Cívico Militar (1973-1985), prácticamente apenas 10 meses después, tras el golpe de estado el 27 de junio de 1973, liderado por el presidente Juan María Bordaberry.
+Éste impulsa, una alianza con los sectores conservadores del Partido Nacional, a cambio de puestos en el gabinete para lograr un mayor apoyo a su gestión. Paralelamente comienza a estrecharse aún más los vínculos con las FF.AA, lo que conlleva a una participación política de este sector, mucho más activo y preponderante.
+Bordaberry, acepta todas las exigencias de los mandos militares y pacta su continuidad en la presidencia, en lo que se dio en llamar, el Pacto de Boiso Lanza, (conjunto de exigencias impuestas por las Fuerzas Armadas del Uruguay, al entonces presidente)
     </div>
 </section>
 
-    <main>
+    
         <main class="contenido">
     <!-- aquí irá todo el contenido -->
+     <section class="timeline">
+
+    <h2>Cronología</h2>
+
+    <div class="evento">
+        <span>27 junio 1973</span>
+        <p>Golpe de Estado.</p>
+    </div>
+
+    <div class="evento">
+        <span>1974</span>
+        <p>Reorganización del MLN-T.</p>
+    </div>
+
+    <div class="evento">
+        <span>17 abril 1974</span>
+        <p>Inicio de detenciones.</p>
+    </div>
+
+    <div class="evento">
+        <span>21 abril 1974</span>
+        <p>Operativo en Mariano Soler.</p>
+    </div>
+
+    <div class="evento">
+        <span>2023</span>
+        <p>Reconocimiento oficial del Estado.</p>
+    </div>
+
+</section>
 </main>
 
         <section id="historia" class="section">
@@ -68,26 +100,134 @@
         </section>
 
         <section id="biografias" class="section cards">
-
             <article class="card">
-                <div class="imagen-container">
-                <img src="img/diana2.png" alt="Diana">
-                <h3>Diana</h3>
-            </article>
+    <div class="imagen-container">
+        <img src="img/diana2.png" alt="Diana">
+    </div>
 
-            <article class="card">
-                <div class="imagen-container">
-                <img src="img/silvia.png" alt="Silvia">
-                <h3>Silvia</h3>
-            </article>
+    <h3>Diana Maidanik</h3>
 
-            <article class="card">
-                <div class="imagen-container">
-                <img src="img/laura.png" alt="Laura">
-                <h3>Laura</h3>
-            </article>
+    <button class="btn-leer-mas" onclick="toggleInfo('diana')">
+        Conocer su historia
+    </button>
+
+    <div id="diana" class="info-oculta">
+        <p>
+            Diana Maidanik tenía 22 años. Era estudiante de Psicología y
+            trabajaba como educadora preescolar. Participaba activamente
+            en actividades comunitarias y en la militancia estudiantil.
+        </p>
+    </div>
+</article>
+
+<article class="card">
+    <div class="imagen-container">
+        <img src="img/silvia.png" alt="Silvia">
+    </div>
+
+    <h3>Silvia Reyes</h3>
+
+    <button class="btn-leer-mas" onclick="toggleInfo('silvia')">
+        Conocer su historia
+    </button>
+
+    <div id="silvia" class="info-oculta">
+        <p>
+            Silvia Reyes tenía 19 años y cursaba estudios secundarios.
+            Militaba en organizaciones estudiantiles y sociales.
+            Al momento de su asesinato se encontraba embarazada de
+            aproximadamente tres meses.
+        </p>
+    </div>
+</article>
+
+<article class="card">
+    <div class="imagen-container">
+        <img src="img/laura.png" alt="Laura">
+    </div>
+
+    <h3>Laura Raggio</h3>
+
+    <button class="btn-leer-mas" onclick="toggleInfo('laura')">
+        Conocer su historia
+    </button>
+
+    <div id="laura" class="info-oculta">
+        <p>
+            Laura Raggio tenía 19 años y era estudiante de Psicología.
+            Participaba en actividades de apoyo a militantes perseguidos
+            por la dictadura. Fue asesinada junto a Diana Maidanik y
+            Silvia Reyes durante el operativo militar del 21 de abril de 1974.
+        </p>
+    </div>
+</article>
+
+
 
         </section>
+        <section id="operativo" class="operativo">
+
+    <div class="operativo-overlay">
+
+        <h2>La madrugada del 21 de abril de 1974</h2>
+
+        <p class="subtitulo">
+            El operativo militar que terminó con la vida de Diana Maidanik,
+            Silvia Reyes y Laura Raggio.
+        </p>
+
+        <div class="operativo-timeline">
+
+            <div class="momento">
+                <span>17 de abril de 1974</span>
+                <h3>Comienzan las detenciones</h3>
+                <p>
+                    Las Fuerzas Conjuntas iniciaron una serie de operativos
+                    destinados a desarticular la reorganización del MLN-T.
+                </p>
+            </div>
+
+            <div class="momento">
+                <span>20 de abril de 1974</span>
+                <h3>Vigilancia del apartamento</h3>
+                <p>
+                    Los organismos represivos identificaron el apartamento
+                    ubicado en Mariano Soler donde residían las jóvenes.
+                </p>
+            </div>
+
+            <div class="momento">
+                <span>2:30 AM</span>
+                <h3>Inicio del operativo</h3>
+                <p>
+                    Un importante contingente militar y policial rodeó el edificio.
+                </p>
+            </div>
+
+            <div class="momento">
+                <span>Madrugada</span>
+                <h3>Más de 140 disparos</h3>
+                <p>
+                    El apartamento fue atacado con una intensidad desproporcionada.
+                    Las tres jóvenes murieron durante el procedimiento.
+                </p>
+            </div>
+
+            <div class="momento">
+                <span>Después del operativo</span>
+                <h3>Versión oficial</h3>
+                <p>
+                    Las autoridades difundieron una versión que durante años
+                    fue cuestionada por familiares, organizaciones sociales
+                    e investigaciones posteriores.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
         <section id="memoria" class="section">
             <h2>Memoria Histórica</h2>
