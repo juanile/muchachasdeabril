@@ -35,6 +35,55 @@
     margin-bottom:20px;
 }
 
+.memoria-presente{
+
+    max-width:1000px;
+
+    margin:100px auto;
+
+    padding:60px;
+
+    background:rgba(243,234,211,0.75);
+
+    border:1px solid #cbb890;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.memoria-presente h2{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:3rem;
+
+    text-align:center;
+
+    color:#222;
+
+    margin-bottom:40px;
+}
+
+.memoria-presente p{
+
+    max-width:850px;
+
+    margin:0 auto 30px auto;
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size: 1.5rem !important;
+
+    line-height:1.9;
+
+    font-weight: bold;
+
+    color:#000000;
+
+    text-align:justify;
+}
+
 
 .intro{
     padding:100px 20px 80px;
