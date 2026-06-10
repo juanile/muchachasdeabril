@@ -197,6 +197,21 @@ nav a{
     padding:80px 20px;
 }
 
+.section p{
+
+    max-width:800px;
+
+    margin:20px auto;
+
+    text-align:center;
+
+    font-size:1.2rem;
+
+    line-height:1.9;
+
+    color:#444;
+}
+
 .section h2{
     margin-bottom:25px;
 }
@@ -1123,3 +1138,87 @@ html{
     margin-top:20px;
     color:#666;
 }
+
+.documento-historico{
+
+    max-width:1000px;
+
+    margin:80px auto;
+
+    padding:50px;
+
+    background:#f3ead3;
+
+    border:1px solid #cbb890;
+
+    border-radius:10px;
+
+    text-align:center;
+}
+
+.documento-historico img{
+
+    max-width:100%;
+
+    border:4px solid #8b6f47;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    margin:30px 0;
+}
+
+.fuente-documento{
+
+    font-style:italic;
+
+    color:#666;
+}
+
+
+@media (min-width: 2560px){
+
+    .contexto-contenedor,
+    .apartamento,
+    .documento-historico,
+    .bibliografia,
+    .memoria-final{
+
+        max-width:1800px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .contexto p,
+    .memoria-presente p{
+
+        max-width:1600px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .memoria-presente h2,
+    .contexto h2{
+
+        width:100%;
+        text-align:center;
+    }
+}
+
+@media (min-width: 3840px){
+
+    .contexto-contenedor,
+    .apartamento,
+    .documento-historico,
+    .bibliografia,
+    .memoria-final{
+
+        max-width:2400px;
+    }
+
+    .contexto p,
+    .memoria-presente p{
+
+        max-width:2000px;
+    }
+}
+
