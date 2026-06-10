@@ -1174,6 +1174,144 @@ html{
     color:#666;
 }
 
+.galeria-historica{
+
+    max-width:1200px;
+
+    margin:100px auto;
+
+    text-align:center;
+}
+
+/* Carrusel Histórico */
+
+.carrusel-historico{
+    position:relative;
+    max-width:1000px;
+    margin:50px auto;
+}
+
+.carrusel-contenedor-historico{
+    display:flex;
+    gap:20px;
+
+    overflow-x:auto;
+    scroll-behavior:smooth;
+
+    scrollbar-width:none;
+}
+
+.carrusel-contenedor-historico::-webkit-scrollbar{
+    display:none;
+}
+
+.carrusel-contenedor-historico img{
+
+    min-width:700px;
+    max-width:700px;
+
+    max-height:500px;
+
+    width:auto;
+    height:auto;
+
+    object-fit:contain;
+
+    background:#f3ead3;
+
+    padding:10px;
+
+    border:3px solid #cbb890;
+
+    border-radius:10px;
+
+    transition:0.4s;
+}
+
+.carrusel-contenedor-historico img:hover{
+    transform:scale(1.02);
+}
+
+.carrusel-btn-historico{
+    position:absolute;
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:50px;
+    height:50px;
+
+    border:none;
+    border-radius:50%;
+
+    background:rgba(0,0,0,.7);
+
+    color:white;
+
+    font-size:1.5rem;
+
+    cursor:pointer;
+
+    z-index:10;
+}
+
+.prev-historico{
+    left:-20px;
+}
+
+.next-historico{
+    right:-20px;
+}
+
+.galeria-historica h2{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:3rem;
+
+    text-align:center;
+
+    color:#222;
+
+    margin-bottom:20px;
+}
+
+.galeria-historica p{
+
+    max-width:800px;
+
+    margin:0 auto 40px auto;
+
+    text-align:center;
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:1.4rem;
+
+    line-height:1.8;
+
+    color:#555;
+}
+
+.galeria-historica p{
+
+    max-width:850px;
+
+    margin:0 auto 50px auto;
+
+    text-align:center;
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:1.5rem;
+
+    font-style:italic;
+
+    line-height:1.8;
+
+    color:#555;
+}
+
 
 @media (min-width: 2560px){
 
