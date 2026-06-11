@@ -50,3 +50,49 @@ document.querySelector(".prev").addEventListener("click", () => {
     mostrarImagen();
 
 });
+
+const carruselHistorico =
+document.querySelector(".carrusel-contenedor-historico");
+
+const imagenesHistoricas =
+document.querySelectorAll(".carrusel-contenedor-historico img");
+
+let indiceHistorico = 0;
+
+function mostrarHistorica(){
+
+    imagenesHistoricas[indiceHistorico].scrollIntoView({
+        behavior:"smooth",
+        inline:"center",
+        block:"nearest"
+    });
+
+}
+
+document
+.querySelector(".next-historico")
+.addEventListener("click", () => {
+
+    indiceHistorico++;
+
+    if(indiceHistorico >= imagenesHistoricas.length){
+        indiceHistorico = 0;
+    }
+
+    mostrarHistorica();
+
+});
+
+document
+.querySelector(".prev-historico")
+.addEventListener("click", () => {
+
+    indiceHistorico--;
+
+    if(indiceHistorico < 0){
+        indiceHistorico = imagenesHistoricas.length - 1;
+    }
+
+    mostrarHistorica();
+
+});
