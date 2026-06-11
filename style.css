@@ -733,7 +733,7 @@ nav a:hover::after{
     font-size:2rem;
     margin-bottom:20px;
 }
-
+btn-top
 .memoria-final p{
     line-height:1.9;
     color:#444;
@@ -1013,8 +1013,8 @@ html{
         height:45px;
         font-size:1.2rem;
 
-        right:15px;
-        bottom:15px;
+        right:10px;
+        bottom:10px;
     }
 
     .bibliografia h2{
@@ -1023,6 +1023,7 @@ html{
 }
 
 @media (max-width: 768px){
+
 
     .timeline::before{
         left:20px;
